@@ -1,82 +1,117 @@
-body{
-  font-family: 'Open Sans',sans-serif;
+/* Set the font family for the entire page and specify the background color */
+body {
+  font-family: 'Open Sans', sans-serif;
   background-color: rgb(29, 116, 101);
-  }
-  #container{
+}
+
+/* Define styles for the main container that holds the calculator */
+#container {
   width: 1000px;
   height: 550px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3));
-  margin: 20px auto;
-  }
-  #calculator{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  margin: 20px auto; /* Center the container horizontally */
+}
+
+/* Styles for the calculator itself */
+#calculator {
   width: 320px;
   height: 520px;
   background-color: #eaedef;
-  margin: 0 auto;
-  top: 20px;
+  margin: 0 auto; /* Center the calculator horizontally */
+  top: 20px; /* Set its position from the top */
   position: relative;
   border-radius: 50px 0 50px 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  #result{
+}
+
+/* Styles for the result display area at the top of the calculator */
+#result {
   height: 120px;
-  }
-  #history{
+}
+
+/* Styles for the history text in the result display area */
+#history {
   text-align: right;
   height: 20px;
   margin: 0 20px;
   padding-top: 20px;
   font-size: 15px;
   color: #000;
-  }
-  #output{
+}
+
+/* Styles for the main output display area */
+#output {
   text-align: right;
   height: 60px;
   margin: 10px 20px;
   font-size: 30px;
-  }
-  #keyboard{
+}
+
+/* Styles for the keyboard section of the calculator */
+#keyboard {
   height: 400px;
-  }
-  .operator, .number, .empty{
+}
+
+/* Styles for buttons - operators, numbers, and empty buttons */
+.operator, .number, .empty {
   width: 50px;
   height: 50px;
   margin: 15px;
   float: left;
-  border-radius: 50% 0 50;
+  border-radius: 50% 0 50; /* CSS shorthand for border radius */
   border-width: 0;
   font-weight: bold;
   font-size: 15px;
-  }
-  .number, .empty{
+}
+
+/* Define button styles for numbers and empty buttons */
+.number, .empty {
   background-color: #eaedef;
-  }
-  .number, .operator{
+}
+
+/* Cursor styles for number and operator buttons */
+.number, .operator {
   cursor: pointer;
-  }
-  .operator:active, .number:active{
+}
+
+/* Button styles when active (pressed) */
+.operator:active, .number:active {
   font-size: 13px;
-  }
-  .operator:focus, .number:focus, .empty:focus{
+}
+
+/* Remove the default focus outline on buttons */
+.operator:focus, .number:focus, .empty:focus {
   outline: 0;
-  }
-  button:nth-child(4){
+}
+
+/* Define button styles for different operator buttons */
+button:nth-child(4) {
   font-size: 20px;
   background-color: #20b2aa;
-  }
-  button:nth-child(8){
+}
+
+button:nth-child(8) {
   font-size: 20px;
   background-color: #ffa500;
-  }
-  button:nth-child(12){
+}
+
+button:nth-child(12) {
   font-size: 20px;
   background-color: #f08080;
-  }
-  button:nth-child(16){
+}
+
+button:nth-child(16) {
   font-size: 20px;
   background-color: #7d93e0;
-  }
-  button:nth-child(20){
+}
+
+button:nth-child(20) {
   font-size: 20px;
   background-color: #ffffff;
-  }
+}
+These comments explain the purpose of each section and style in your CSS code for the calculator.
+
+
+
+
+
