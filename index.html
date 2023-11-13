@@ -1,33 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Set character encoding and viewport for responsive design -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Link to an external CSS stylesheet -->
-    <link  rel="stylesheet" href="/css/styles.css">
+    <a href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet"></a> 
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <!-- Create a container div for the calculator -->
     <div id="container">
-        <!-- Main calculator div -->
         <div id="calculator">
             <div id="result">
-                <!-- Display area for calculation history -->
-                <div id=""><p id=""></p></div>
-                <!-- Output display area for the calculator -->
-                <div id=""><p id=""></p></div>
+                <div id="history"><p id="history-value"></p></div>
+                <div id="output"><p id="output-value"></p></div>
             </div>
-            <!-- Place the calculator buttons within a div id called "keyboard" -->
             <div id="keyboard">
-                <!-- Operator buttons -->
                 <button class="operator" id="clear">C</button>
                 <button class="operator" id="backspace">CE</button>
                 <button class="operator" id="%">%</button>
-                
                 <button class="operator" id="/">&#247;</button>
-                <!-- Number buttons -->
                 <button class="number" id="7">7</button>
                 <button class="number" id="8">8</button>
                 <button class="number" id="9">9</button>
@@ -40,14 +29,13 @@
                 <button class="number" id="2">2</button>
                 <button class="number" id="3">3</button>
                 <button class="operator" id="+">+</button>
-                <!-- Empty button elements for spacing -->
                 <button class="empty" id="empty"></button>
                 <button class="number" id="0">0</button>
                 <button class="empty" id="empty"></button>
-                <!-- Equals button to perform calculations -->
                 <button class="operator" id="=">=</button>
             </div>
         </div>
     </div>
+    <script src="/script/index.js"></script>
 </body>
 </html>
